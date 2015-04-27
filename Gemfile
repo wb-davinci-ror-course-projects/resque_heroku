@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ### add after rails new
-gem 'resque', require: 'resque/server'
+gem 'resque', "~> 1.25.1", require: 'resque/server'
 gem 'resque-scheduler', '~> 2.5.5', require: 'resque_scheduler/server'
 
 group :production do
